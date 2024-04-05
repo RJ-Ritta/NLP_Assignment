@@ -56,8 +56,11 @@ Each 768-dimensional feature vector encapsulates the semantic content of a sente
 ## Classification:
 
 For classification, a Support Vector Machine (SVM) classifier with radial basis function (RBF) kernel is employed. SVM is chosen for its robust performance in text classification tasks. The features obtained from the RoBERTa model are standardized using StandardScaler, and then used to train the SVM model.
+
 For sentiment classification, we explored a variety of models beyond SVM, including Logistic Regression (LR), Random Forest, Gradient Boosting, Multi-Layer Perceptron (MLP), and Long Short-Term Memory (LSTM). 
+
 Each model was considered based on its strengths, complexity, and performance characteristics. By exploring multiple models, we aimed to identify the most suitable approach for our sentiment classification task, ensuring robust and accurate predictions.
+
 After comparing the performance of these models, we found that SVM outperformed the others on this dataset.
 
 ## Resources:
