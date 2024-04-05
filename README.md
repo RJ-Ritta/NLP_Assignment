@@ -56,7 +56,13 @@ Through this word embedding step, we transform text data into numerical represen
 
 ## Neural Feature Engineering:
 
-The RoBERTa model serves as the basis for neural feature engineering. By passing the tokenized inputs through RoBERTa, a 768-dimensional feature vector is generated for each input sentence. These vectors capture rich contextual information from the text.
+The RoBERTa model is utilized for neural feature engineering, enabling the capture of rich contextual information from the text. Here's a concise explanation of the key steps:
+
+## Tokenization and Embedding:
+The input text undergoes tokenization using RoBERTa's tokenizer. Tokens are then processed through the RoBERTa model to generate 768-dimensional feature vectors for each sentence. This process captures detailed contextual information crucial for sentiment understanding.
+
+## Feature Representation:
+Each 768-dimensional feature vector encapsulates the semantic content of a sentence, including word arrangement, syntactic relationships, and overall context. These vectors serve as the neural features utilized for sentiment classification.
 
 ## Classification:
 
