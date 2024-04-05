@@ -64,9 +64,13 @@ For classification, a Support Vector Machine (SVM) classifier with radial basis 
 
 ## Resources:
 
-The model utilizes the RoBERTa pre-trained transformer model for word embedding.
-SVM classifier with RBF kernel is used for sentiment classification.
-The code utilizes the transformers library for RoBERTa tokenization and model loading, and scikit-learn for SVM implementation.
-Accuracy on Dev Dataset:
+The classifier utilizes the following resources:
 
-The accuracy achieved on the development dataset is 0.88.
+Pre-trained RoBERTa transformer model for word embedding.
+Support Vector Machine (SVM) classifier with a radial basis function (RBF) kernel for sentiment classification.
+The 'transformers' library for RoBERTa tokenization and model loading.
+The 'scikit-learn' library for SVM implementation.
+
+## Accuracy on Dev Dataset:
+
+The accuracy achieved on the devdata is 0.88.
